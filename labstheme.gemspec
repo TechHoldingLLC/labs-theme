@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name     = "minima"
-  spec.version  = "2.5.1"
+  spec.name     = "labstheme"
+  spec.version  = "1.0.0"
   spec.authors  = ["Joel Glovier"]
   spec.email    = ["jglovier@github.com"]
 
