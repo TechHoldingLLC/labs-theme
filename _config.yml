@@ -1,17 +1,13 @@
-title: Your awesome title
-author:
-  name: GitHub User
-  email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: TH Labs Theme
+description: >
+  This is the Jekyll Theme for Tech Holding Labs GitHub Pages
 
-show_excerpts: false # set to true to show excerpts on the homepage
+github:
+  repository_url: https://github.com/TechHoldingLLC/labs-theme
 
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
+# Date format
+# refer to https://ruby-doc.org/core-3.0.0/Time.html#method-i-strftime if you want to customize this
+labs:
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
@@ -22,12 +18,13 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+# header_pages:
+# - docs/index.md
+pages:
+  - docs/index.md
 
 # Build settings
 theme: labstheme
 
 plugins:
- - jekyll-feed
  - jekyll-seo-tag

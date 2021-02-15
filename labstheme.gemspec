@@ -3,12 +3,12 @@
 Gem::Specification.new do |spec|
   spec.name     = "labstheme"
   spec.version  = "1.0.0"
-  spec.authors  = ["Joel Glovier"]
-  spec.email    = ["jglovier@github.com"]
+  spec.authors  = ["Yorick Demichelis"]
+  spec.email    = ["yorick.demichelis@techholding.co"]
 
-  spec.summary  = "A beautiful, minimal theme for Jekyll."
-  spec.homepage = "https://github.com/jekyll/minima"
-  spec.license  = "MIT"
+  spec.summary  = "Jekyll theme created from minima for Tech Holding Labs Projects."
+  spec.homepage = "https://github.com/TechHoldingLLC/labs-theme"
+  spec.license  = "MPL-2.0"
 
   spec.metadata["plugin_type"] = "theme"
 
@@ -17,7 +17,6 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_runtime_dependency "jekyll", ">= 3.5", "< 5.0"
-  spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
 
   spec.add_development_dependency "bundler"
