@@ -13,6 +13,17 @@
       </div>
     </main>
 
+    <aside class="Contributors">
+      <div class="wrapper">
+        <h2>Contributors</h2>
+        <ul>
+          {% for contrib in site.github.contributors %}
+          <li><a target="_blank" rel="nofollow" href="{{ contrib.html_url }}"><img title="{{ contrib.login }}" src="{{ contrib.avatar_url }}" /></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </aside>
+
     {%- include footer.html -%}
 
   </body>

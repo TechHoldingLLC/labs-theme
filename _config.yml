@@ -1,9 +1,7 @@
+repository: TechHoldingLLC/labs-theme
 title: TH Labs Theme
 description: >
   This is the Jekyll Theme for Tech Holding Labs GitHub Pages
-
-github:
-  repository_url: https://github.com/TechHoldingLLC/labs-theme
 
 # Date format
 # refer to https://ruby-doc.org/core-3.0.0/Time.html#method-i-strftime if you want to customize this
