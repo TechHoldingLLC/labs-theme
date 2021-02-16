@@ -8,6 +8,8 @@ description: >
 labs:
   date_format: "%b %-d, %Y"
 
+  base_url: "https://labs.techholding.co"
+
   # generate social links in footer
   social_links:
     github:  TechHoldingLLC
@@ -15,14 +17,10 @@ labs:
     linkedin: tech-holding
 
 featured:
-  - name: Memda
-    desc: Lambda Memory Check
-    repo_slug: memda
-    image: assets/img/memda.png
-  - name: Kappa
-    desc: Run a lambda locally without aws sam
-    repo_slug: kappa
-    image: assets/img/kappa.png
+  - name: Marvelous project
+    desc: This is a description
+    repo_slug: test
+    image: assets/img/default.png
 
 # Build settings
 theme: labstheme

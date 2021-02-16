@@ -13,7 +13,7 @@ layout: main
       <div class="Project__Content">
         <h3 class="Project__Title">{{ project.name }}<span class="Project__TitleDot">.</span></h3>
         <p class="Project__Desc">{{ project.desc }}</p>
-        <a  class="Project__Link" href="{{ site.github.pages_hostname }}/{{ project.repo_slug }}">Learn More</a>
+        <a  class="Project__Link" href="{{ site.labs.base_url }}/{{ project.repo_slug }}">Learn More</a>
       </div>
     </article>
     {% endfor %}
