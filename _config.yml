@@ -14,12 +14,15 @@ labs:
     facebook: techholding
     linkedin: tech-holding
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-# header_pages:
-# - docs/index.md
-pages:
-  - docs/index.md
+featured:
+  - name: Memda
+    desc: Lambda Memory Check
+    repo_slug: memda
+    image: assets/img/memda.png
+  - name: Kappa
+    desc: Run a lambda locally without aws sam
+    repo_slug: kappa
+    image: assets/img/kappa.png
 
 # Build settings
 theme: labstheme

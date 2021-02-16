@@ -79,3 +79,49 @@
   li
     flex: 0 0 calc(100% / 10)
 
+
+/**
+ * Project List
+ */
+.ProjectList
+  &__Title
+    font-size: 3rem
+    font-weight: 500
+    text-transform: uppercase
+    color: $dark-text-color
+    text-align: center
+
+.Project
+  display: flex
+  flex-flow: row nowrap
+  justify-content: space-between
+  margin: 10rem 0
+  &:nth-of-type(even)
+    flex-flow: row-reverse nowrap
+  
+  &__Image
+    flex: 0 0 calc(100% / 2 - 40px)
+
+  &__Content
+    flex: 0 0 calc(100% / 2 - 40px)
+
+  &__Title
+    font-weight: 500
+    font-size: 5rem
+  &__TitleDot
+    color: $brand-color
+    
+  &__Desc
+    font-size: 3rem
+
+  &__Link
+    display: inline-block
+    background-color: $brand-color
+    color: $text-color
+    border-radius: 5px
+    font-size: 3rem
+    padding: 2rem
+    line-height: 1
+    &:visited, &:hover
+      text-decoration: none
+      color: $text-color

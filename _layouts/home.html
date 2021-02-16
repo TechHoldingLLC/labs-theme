@@ -3,9 +3,19 @@ layout: main
 ---
 
 <div class="MainContent">
-  <ul>
-    {% for repository in site.github.public_repositories %}
-    <li><a href="{{ repository.html_url }}">{{ repository.name }}</a></li>
+  <section class="ProjectList">
+    <h2 class="ProjectList__Title">Explore Tech Holding Labs Projects</h2>
+    {% for project in site.featured %}
+    <article class="Project">
+      <aside class="Project__Image">
+        <img src="{{ project.image | default: 'assets/img/default.png' | relative_url }}" />
+      </aside>
+      <div class="Project__Content">
+        <h3 class="Project__Title">{{ project.name }}<span class="Project__TitleDot">.</span></h3>
+        <p class="Project__Desc">{{ project.desc }}</p>
+        <a  class="Project__Link" href="{{ site.github.owner_url }}/{{ project.repo_slug }}">Learn More</a>
+      </div>
+    </article>
     {% endfor %}
-  </ul>
+  </section>
 </div>
